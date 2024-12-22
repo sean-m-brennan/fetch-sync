@@ -25,8 +25,8 @@ export default defineConfig({
   build: {
     sourcemap: true,
     lib: {
-      entry: resolve(__dirname, "space-data-service.ts"),
-      fileName: "space-data-service",
+      entry: resolve(__dirname, "index.ts"),
+      fileName: "index",
       formats: ["es", "cjs"],
     },
   },
